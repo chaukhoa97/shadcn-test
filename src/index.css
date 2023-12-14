@@ -16,3 +16,9 @@
     @apply text-[24px] lg:text-[36px] lg:leading-[44px];
   }
 }
+
+.layout {
+  width: 100%;
+  padding-left: max(24px, calc((100vw - 1152px) / 2));
+  padding-right: max(24px, calc((100vw - 1152px) / 2));
+}

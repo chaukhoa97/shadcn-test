@@ -2,21 +2,6 @@
 module.exports = {
   content: ['./public/index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    container: {
-      center: true,
-      screens: {
-        sm: '100%',
-        md: '100%',
-        lg: '100%',
-        xl: '100%',
-        '2xl': '100%',
-      },
-      padding: {
-        DEFAULT: '1.5rem',
-        xl: '2.75rem',
-        '2xl': '9rem',
-      },
-    },
     extend: {
       screens: {
         '2xl': '1440px',

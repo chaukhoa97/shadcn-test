@@ -22,3 +22,16 @@
   padding-left: max(24px, calc((100vw - 1152px) / 2));
   padding-right: max(24px, calc((100vw - 1152px) / 2));
 }
+
+@keyframes line {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-line {
+  animation: line 2s linear infinite;
+}

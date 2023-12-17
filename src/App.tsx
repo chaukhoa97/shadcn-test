@@ -23,7 +23,11 @@ function App() {
             enim doloremque assumenda. Molestias sapiente modi reprehenderit
             suscipit est debitis non assumenda alias delectus maxime.
           </p>
-          <svg
+          <img
+            className="absolute top-0 z-20 w-full"
+            src="https://25.media.tumblr.com/a02683bf4713cc6494a0c65e7e158363/tumblr_mtc8nypRD81s7o44uo1_500.gif"
+          />
+          {/* <svg
             className="animate-line absolute left-0 top-0 z-20 h-screen w-screen"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -31,7 +35,7 @@ function App() {
             stroke="currentColor"
           >
             <path d="M50,0 L50,100" strokeWidth="2" />
-          </svg>
+          </svg> */}
         </div>
       </div>
     </div>
